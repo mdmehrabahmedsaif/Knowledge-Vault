@@ -1,0 +1,45 @@
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 16px;
+  gap: 32px;
+}
+
+.links-nav ul {
+  display: flex;
+  gap: 32px;
+}
+
+.links-nav ul li {
+  list-style: none;
+}
+
+.links-nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+}
+
+.btn-nav{
+    border: none;
+    background-color: #469165;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    cursor: pointer;
+}
+
+.btn-nav:hover{
+    background-color: #4a725b;
+}
