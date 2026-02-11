@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .font-inter {
@@ -49,123 +49,235 @@
   background-color: #4a725b;
 }
 
-.banner{
-    background: url("../assets/hero-bg.png");
-    background-size: cover;
-    height: 674px;
-    background-repeat: no-repeat;
+.banner {
+  background: url("../assets/hero-bg.png");
+  background-size: cover;
+  height: 674px;
+  background-repeat: no-repeat;
 }
 
-.gap-banner{
-    display: inline-block;
+.gap-banner {
+  display: inline-block;
 }
 
-.text-banner{
-    justify-items: center;
+.text-banner {
+  justify-items: center;
 }
 
-.live-indicator .live-indicator-btn{
-    font-size: 16px;
-    font-weight: 500;
-    padding: 8px 12px;
-    color: #469165;
-    border: none;
-    border-radius: 1000px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    gap: 6px;
-    margin: 100px 0 16px 0;
-    cursor: pointer;
+.live-indicator .live-indicator-btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  color: #469165;
+  border: none;
+  border-radius: 1000px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 6px;
+  margin: 100px 0 16px 0;
+  cursor: pointer;
 }
 
-.live-indicator .live-indicator-btn:hover{
-    background-color:rgb(224, 230, 233);
+.live-indicator .live-indicator-btn:hover {
+  background-color: rgb(224, 230, 233);
 }
 
 .live-indicator .live-indicator-btn img {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
 }
 
-.all-text-banner{
-    justify-items: center;
+.all-text-banner {
+  justify-items: center;
 }
 
-.all-text-banner h1{
-    width: 770px;
-    font-size: 72px;
-    font-weight: bold;
-    line-height: 84px;
-    text-align: center;
+.all-text-banner h1 {
+  width: 770px;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  text-align: center;
 }
 
-.all-text-banner h1 .all-text-banner-white{
-    color: #FFFFFF;
+.all-text-banner h1 .all-text-banner-white {
+  color: #ffffff;
 }
 
-.all-text-banner h1 .all-text-banner-green{
-    color: #30B868;
+.all-text-banner h1 .all-text-banner-green {
+  color: #30b868;
 }
 
 .all-text-banner p {
-    font-size: 18px;
-    color: #FFFFFF;
-    padding-top: 16px;
-    font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 16px;
+  font-weight: 400;
 }
 
-.btn{
-    display: flex;
-    gap: 16px;
-    margin-top: 32px;
+.btn {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
 }
 
-.all-text-banner .btn-banner-1{
-    gap: 12.19px;
-    font-size: 16px;
-    font-weight: 600;
-    border: none;
-    display: flex;
-    align-items: center;
-    background-color: #469165;
-    color: #FFFFFF;
-    border-radius: 4px;
-    padding: 16.5px 16px;
-    cursor: pointer;
+.all-text-banner .btn-banner-1 {
+  gap: 12.19px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: #469165;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 16.5px 16px;
+  cursor: pointer;
 }
 
-.all-text-banner .btn-banner-1:hover{
-    background-color: #4a725b;
+.all-text-banner .btn-banner-1:hover {
+  background-color: #4a725b;
 }
 
-.all-text-banner .btn-banner-1 img{
-    margin-bottom: -3.8px;
+.all-text-banner .btn-banner-1 img {
+  margin-bottom: -3.8px;
 }
 
-.all-text-banner .btn-banner-2{
-    font-size: 16px;
-    font-weight: 600;
-    gap: 10.94px;
-    border: 1px solid #FFFFFF;
-    display: flex;
-    justify-items:center;
-    align-items: center;
-    background-color: transparent;
-    color: #FFFFFF;
-    border-radius: 4px;
-    padding: 16.5px 16px;
-    cursor: pointer;
+.all-text-banner .btn-banner-2 {
+  font-size: 16px;
+  font-weight: 600;
+  gap: 10.94px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 16.5px 16px;
+  cursor: pointer;
 }
 
-.all-text-banner .btn-banner-2:hover{
-    background-color: rgb(0, 0, 0);
+.all-text-banner .btn-banner-2:hover {
+  background-color: rgb(0, 0, 0);
 }
 
 .all-text-banner .btn-banner-2 img {
-    width: 14.38px;
-    height: 16.87px;
-    margin-bottom: -3.8px;
+  width: 14.38px;
+  height: 16.87px;
+  margin-bottom: -3.8px;
 }
 
+.cotes-main {
+  justify-items: center;
+}
+
+.cotes-main h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  max-width: 1360px;
+  padding-top: 50px;
+}
+
+.cotes-main p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 16px;
+}
+
+.card-section .all-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-section .all-card .card {
+  justify-items: center;
+  text-align: center;
+  margin-top: 44px;
+  padding: 69.5px 24px;
+}
+
+.all-card .card-image img {
+  background-color: #f95555;
+  padding: 14.4px 13.91px 13.96px 14.9px;
+  border-radius: 100px;
+  margin-top: 69.5px;
+}
+
+.all-card .card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  padding-top: 16px;
+  width: 274px;
+}
+
+.all-card .card p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 16px;
+  width: 274px;
+}
+
+.content-main-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-main-1 .image-content-main-1 {
+  width: 600px;
+  height: 600px;
+}
+
+.content-main-1 .content {
+  width: 700px;
+  text-align: left;
+  padding: 102px 0 102px 60px;
+}
+
+.content-main-1 .content .p-1 {
+  width: 700px;
+  color: #469165;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 20px;
+}
+
+.content-main-1 .content h1 {
+  color: #001931;
+  font-weight: bold;
+  font-size: 48px;
+  width: 515px;
+  padding-top: 16px;
+}
+
+.content-main-1 .content .p-2 {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 16px;
+  width: 483px;
+}
+
+.content-main-1 .content .list ul {
+  padding-top: 40px;
+}
+
+.content-main-1 .content .list ul li {
+  list-style: none;
+  display: flex;
+  gap: 7.87px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #001931;
+}
