@@ -169,11 +169,11 @@
   margin-bottom: -3.8px;
 }
 
-.cotes-main {
+.Early-Access {
   justify-items: center;
 }
 
-.cotes-main h1 {
+.Early-Access h1 {
   font-size: 48px;
   font-weight: bold;
   color: #001931;
@@ -181,7 +181,7 @@
   padding-top: 50px;
 }
 
-.cotes-main p {
+.Early-Access p {
   color: #627382;
   font-size: 16px;
   font-weight: 400;
@@ -189,12 +189,12 @@
   padding-top: 16px;
 }
 
-.card-section .all-card {
+.Notes-Section .all-card {
   display: flex;
   justify-content: center;
 }
 
-.card-section .all-card .card {
+.Notes-Section .all-card .card {
   justify-items: center;
   text-align: center;
   margin-top: 44px;
@@ -225,7 +225,7 @@
   width: 274px;
 }
 
-.content-main-1 {
+.Second-Brain-Section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,18 +233,18 @@
 
 }
 
-.content-main-1 .image-content-main-1 {
+.Second-Brain-Section .image-content-main-1 {
   width: 600px;
   height: 600px;
 }
 
-.content-main-1 .content {
+.Second-Brain-Section .content {
   width: 700px;
   text-align: left;
   padding: 102px 0 102px 60px;
 }
 
-.content-main-1 .content .p-1 {
+.Second-Brain-Section .content .p-1 {
   width: 700px;
   color: #469165;
   font-size: 16px;
@@ -252,7 +252,7 @@
   line-height: 20px;
 }
 
-.content-main-1 .content h1 {
+.Second-Brain-Section .content h1 {
   color: #001931;
   font-weight: bold;
   font-size: 48px;
@@ -260,7 +260,7 @@
   padding-top: 16px;
 }
 
-.content-main-1 .content .p-2 {
+.Second-Brain-Section .content .p-2 {
   color: #627382;
   font-size: 16px;
   font-weight: 400;
@@ -269,11 +269,11 @@
   width: 483px;
 }
 
-.content-main-1 .content .list ul {
+.Second-Brain-Section .content .list ul {
   padding-top: 40px;
 }
 
-.content-main-1 .content .list ul li {
+.Second-Brain-Section .content .list ul li {
   list-style: none;
   display: flex;
   gap: 7.87px;
